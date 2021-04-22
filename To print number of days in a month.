@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    cont int MONTHS[]={31,28,31,30,31,30,31,31,30,31,30,31};
+    int month;
+    printf("eneter the value of month");
+    scanf("%d",month);
+    if(month>=1||month<=12)
+     {
+      printf("%d days",MONTHS[month-1]);
+      }
+     else  
+     {
+      printf("Invalid input");
+      }
+      return 0;
+  }
